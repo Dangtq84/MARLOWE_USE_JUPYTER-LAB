@@ -1,0 +1,20 @@
+1. Cài đặt lại phiên bản Python đầy đủ
+sudo apt install python3-full
+2. Tạo môi trường ảo lại
+python3 -m venv jupyter_env
+3. Kích hoạt môi trường ảo
+source jupyter_env/bin/activate
+4. Cài đặt JupyterLab
+pip install jupyterlab
+5. Khởi chạy JupyterLab
+jupyter-lab
+6. Tải Tệp từ GitHub trực tiếp vào JupyterLab
+Nếu bạn chỉ muốn tải một vài tệp từ GitHub mà không muốn clone toàn bộ repository:
+
+Bước 1: Tải tệp từ GitHub
+Truy cập repository trên GitHub và tải tệp bạn cần.
+
+Bước 2: Upload vào JupyterLab
+Trong JupyterLab, vào tab File và chọn Upload.
+Chọn tệp bạn đã tải xuống từ GitHub để upload vào môi trường JupyterLab của bạn.
+7. 
