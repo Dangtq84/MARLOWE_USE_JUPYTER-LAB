@@ -8,6 +8,16 @@ source jupyter_env/bin/activate
 pip install jupyterlab
 5. Khởi chạy JupyterLab
 jupyter-lab
+6. Cài đặt thêm các kernel
+- Cài đặt kernel Python
+pip install ipykernel
+python -m ipykernel install --user --name=myenv --display-name "Python (myenv)"
+- Cài đặt kernel IR:
+install.packages('IRkernel')
+IRkernel::installspec()
+7. Cài đặt bash_kernel
+pip install bash_kernel
+python -m bash_kernel.install
 6. Tải Tệp từ GitHub trực tiếp vào JupyterLab
 Nếu bạn chỉ muốn tải một vài tệp từ GitHub mà không muốn clone toàn bộ repository:
 
